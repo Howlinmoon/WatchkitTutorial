@@ -12,6 +12,15 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    
+    
+    @IBAction func valueChanged(value: Float) {
+    }
+    
+    @IBAction func flippedSwitch(value: Bool) {
+    }
+    
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
