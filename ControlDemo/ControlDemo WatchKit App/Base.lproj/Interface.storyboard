@@ -10,17 +10,19 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ControlDemo_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <switch width="1" alignment="left" value="YES" title="Airplane Mode" id="01B-Ur-AHe">
-                            <connections>
-                                <action selector="flippedSwitch:" destination="AgC-eL-Hgc" id="Q6d-Ew-qnE"/>
-                            </connections>
-                        </switch>
+                        <dateLabel alignment="left" id="CoX-gx-cpT">
+                            <dateFormatterStyle key="dateStyle" none="YES" short="YES" medium="YES" long="YES"/>
+                            <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
+                        </dateLabel>
+                        <dateLabel alignment="left" id="13N-CO-yWP">
+                            <dateFormatterStyle key="dateStyle" none="YES" short="YES"/>
+                            <dateFormatterStyle key="timeStyle" none="YES" medium="YES"/>
+                        </dateLabel>
+                        <dateLabel alignment="left" id="b7N-Gn-Vno">
+                            <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
+                        </dateLabel>
                         <separator alignment="left" id="4eY-JN-8Od"/>
-                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="Cee-eM-eAi">
-                            <connections>
-                                <action selector="valueChanged:" destination="AgC-eL-Hgc" id="Ztr-Jd-fqJ"/>
-                            </connections>
-                        </slider>
+                        <timer alignment="left" id="zlc-Ez-KWC"/>
                     </items>
                 </controller>
             </objects>
