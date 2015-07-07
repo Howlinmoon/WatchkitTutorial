@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960F0BF81B4C39DD00E88947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F0BF71B4C39DD00E88947 /* AppDelegate.swift */; };
+		960F0BFA1B4C39DD00E88947 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F0BF91B4C39DD00E88947 /* ViewController.swift */; };
+		960F0BFD1B4C39DD00E88947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F0BFB1B4C39DD00E88947 /* Main.storyboard */; };
+		960F0BFF1B4C39DD00E88947 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960F0BFE1B4C39DD00E88947 /* Images.xcassets */; };
+		960F0C021B4C39DD00E88947 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960F0C001B4C39DD00E88947 /* LaunchScreen.xib */; };
+		960F0C0E1B4C39DD00E88947 /* WatchScreenSizesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F0C0D1B4C39DD00E88947 /* WatchScreenSizesTests.swift */; };
+		960F0C201B4C39E900E88947 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F0C1F1B4C39E900E88947 /* InterfaceController.swift */; };
+		960F0C221B4C39E900E88947 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960F0C211B4C39E900E88947 /* Images.xcassets */; };
+		960F0C261B4C39E900E88947 /* WatchScreenSizes WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 960F0C251B4C39E900E88947 /* WatchScreenSizes WatchKit App.app */; };
+		960F0C2E1B4C39E900E88947 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F0C2C1B4C39E900E88947 /* Interface.storyboard */; };
+		960F0C301B4C39E900E88947 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960F0C2F1B4C39E900E88947 /* Images.xcassets */; };
+		960F0C331B4C39E900E88947 /* WatchScreenSizes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 960F0C1B1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960F0C081B4C39DD00E88947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960F0BEA1B4C39DD00E88947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960F0BF11B4C39DD00E88947;
+			remoteInfo = WatchScreenSizes;
+		};
+		960F0C271B4C39E900E88947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960F0BEA1B4C39DD00E88947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960F0C241B4C39E900E88947;
+			remoteInfo = "WatchScreenSizes WatchKit App";
+		};
+		960F0C311B4C39E900E88947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960F0BEA1B4C39DD00E88947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960F0C1A1B4C39E900E88947;
+			remoteInfo = "WatchScreenSizes WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		960F0C3A1B4C39E900E88947 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				960F0C331B4C39E900E88947 /* WatchScreenSizes WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		960F0BF21B4C39DD00E88947 /* WatchScreenSizes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchScreenSizes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960F0BF61B4C39DD00E88947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960F0BF71B4C39DD00E88947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960F0BF91B4C39DD00E88947 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960F0BFC1B4C39DD00E88947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960F0BFE1B4C39DD00E88947 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		960F0C011B4C39DD00E88947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		960F0C071B4C39DD00E88947 /* WatchScreenSizesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchScreenSizesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960F0C0C1B4C39DD00E88947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960F0C0D1B4C39DD00E88947 /* WatchScreenSizesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScreenSizesTests.swift; sourceTree = "<group>"; };
+		960F0C1B1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchScreenSizes WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		960F0C1E1B4C39E900E88947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960F0C1F1B4C39E900E88947 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		960F0C211B4C39E900E88947 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		960F0C251B4C39E900E88947 /* WatchScreenSizes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchScreenSizes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		960F0C2B1B4C39E900E88947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960F0C2D1B4C39E900E88947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		960F0C2F1B4C39E900E88947 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960F0BEF1B4C39DD00E88947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960F0C041B4C39DD00E88947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960F0C181B4C39E900E88947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960F0BE91B4C39DD00E88947 = {
+			isa = PBXGroup;
+			children = (
+				960F0BF41B4C39DD00E88947 /* WatchScreenSizes */,
+				960F0C0A1B4C39DD00E88947 /* WatchScreenSizesTests */,
+				960F0C1C1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension */,
+				960F0C291B4C39E900E88947 /* WatchScreenSizes WatchKit App */,
+				960F0BF31B4C39DD00E88947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960F0BF31B4C39DD00E88947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960F0BF21B4C39DD00E88947 /* WatchScreenSizes.app */,
+				960F0C071B4C39DD00E88947 /* WatchScreenSizesTests.xctest */,
+				960F0C1B1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension.appex */,
+				960F0C251B4C39E900E88947 /* WatchScreenSizes WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960F0BF41B4C39DD00E88947 /* WatchScreenSizes */ = {
+			isa = PBXGroup;
+			children = (
+				960F0BF71B4C39DD00E88947 /* AppDelegate.swift */,
+				960F0BF91B4C39DD00E88947 /* ViewController.swift */,
+				960F0BFB1B4C39DD00E88947 /* Main.storyboard */,
+				960F0BFE1B4C39DD00E88947 /* Images.xcassets */,
+				960F0C001B4C39DD00E88947 /* LaunchScreen.xib */,
+				960F0BF51B4C39DD00E88947 /* Supporting Files */,
+			);
+			path = WatchScreenSizes;
+			sourceTree = "<group>";
+		};
+		960F0BF51B4C39DD00E88947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960F0BF61B4C39DD00E88947 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		960F0C0A1B4C39DD00E88947 /* WatchScreenSizesTests */ = {
+			isa = PBXGroup;
+			children = (
+				960F0C0D1B4C39DD00E88947 /* WatchScreenSizesTests.swift */,
+				960F0C0B1B4C39DD00E88947 /* Supporting Files */,
+			);
+			path = WatchScreenSizesTests;
+			sourceTree = "<group>";
+		};
+		960F0C0B1B4C39DD00E88947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960F0C0C1B4C39DD00E88947 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		960F0C1C1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				960F0C1F1B4C39E900E88947 /* InterfaceController.swift */,
+				960F0C211B4C39E900E88947 /* Images.xcassets */,
+				960F0C1D1B4C39E900E88947 /* Supporting Files */,
+			);
+			path = "WatchScreenSizes WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		960F0C1D1B4C39E900E88947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960F0C1E1B4C39E900E88947 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		960F0C291B4C39E900E88947 /* WatchScreenSizes WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				960F0C2C1B4C39E900E88947 /* Interface.storyboard */,
+				960F0C2F1B4C39E900E88947 /* Images.xcassets */,
+				960F0C2A1B4C39E900E88947 /* Supporting Files */,
+			);
+			path = "WatchScreenSizes WatchKit App";
+			sourceTree = "<group>";
+		};
+		960F0C2A1B4C39E900E88947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960F0C2B1B4C39E900E88947 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960F0BF11B4C39DD00E88947 /* WatchScreenSizes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960F0C111B4C39DD00E88947 /* Build configuration list for PBXNativeTarget "WatchScreenSizes" */;
+			buildPhases = (
+				960F0BEE1B4C39DD00E88947 /* Sources */,
+				960F0BEF1B4C39DD00E88947 /* Frameworks */,
+				960F0BF01B4C39DD00E88947 /* Resources */,
+				960F0C3A1B4C39E900E88947 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960F0C321B4C39E900E88947 /* PBXTargetDependency */,
+			);
+			name = WatchScreenSizes;
+			productName = WatchScreenSizes;
+			productReference = 960F0BF21B4C39DD00E88947 /* WatchScreenSizes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960F0C061B4C39DD00E88947 /* WatchScreenSizesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960F0C141B4C39DD00E88947 /* Build configuration list for PBXNativeTarget "WatchScreenSizesTests" */;
+			buildPhases = (
+				960F0C031B4C39DD00E88947 /* Sources */,
+				960F0C041B4C39DD00E88947 /* Frameworks */,
+				960F0C051B4C39DD00E88947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960F0C091B4C39DD00E88947 /* PBXTargetDependency */,
+			);
+			name = WatchScreenSizesTests;
+			productName = WatchScreenSizesTests;
+			productReference = 960F0C071B4C39DD00E88947 /* WatchScreenSizesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960F0C1A1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960F0C371B4C39E900E88947 /* Build configuration list for PBXNativeTarget "WatchScreenSizes WatchKit Extension" */;
+			buildPhases = (
+				960F0C171B4C39E900E88947 /* Sources */,
+				960F0C181B4C39E900E88947 /* Frameworks */,
+				960F0C191B4C39E900E88947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960F0C281B4C39E900E88947 /* PBXTargetDependency */,
+			);
+			name = "WatchScreenSizes WatchKit Extension";
+			productName = "WatchScreenSizes WatchKit Extension";
+			productReference = 960F0C1B1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		960F0C241B4C39E900E88947 /* WatchScreenSizes WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960F0C341B4C39E900E88947 /* Build configuration list for PBXNativeTarget "WatchScreenSizes WatchKit App" */;
+			buildPhases = (
+				960F0C231B4C39E900E88947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchScreenSizes WatchKit App";
+			productName = "WatchScreenSizes WatchKit App";
+			productReference = 960F0C251B4C39E900E88947 /* WatchScreenSizes WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960F0BEA1B4C39DD00E88947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jim Veneskey";
+				TargetAttributes = {
+					960F0BF11B4C39DD00E88947 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					960F0C061B4C39DD00E88947 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 960F0BF11B4C39DD00E88947;
+					};
+					960F0C1A1B4C39E900E88947 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					960F0C241B4C39E900E88947 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 960F0BED1B4C39DD00E88947 /* Build configuration list for PBXProject "WatchScreenSizes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960F0BE91B4C39DD00E88947;
+			productRefGroup = 960F0BF31B4C39DD00E88947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960F0BF11B4C39DD00E88947 /* WatchScreenSizes */,
+				960F0C061B4C39DD00E88947 /* WatchScreenSizesTests */,
+				960F0C1A1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension */,
+				960F0C241B4C39E900E88947 /* WatchScreenSizes WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960F0BF01B4C39DD00E88947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960F0BFD1B4C39DD00E88947 /* Main.storyboard in Resources */,
+				960F0C021B4C39DD00E88947 /* LaunchScreen.xib in Resources */,
+				960F0BFF1B4C39DD00E88947 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960F0C051B4C39DD00E88947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960F0C191B4C39E900E88947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960F0C221B4C39E900E88947 /* Images.xcassets in Resources */,
+				960F0C261B4C39E900E88947 /* WatchScreenSizes WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960F0C231B4C39E900E88947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960F0C2E1B4C39E900E88947 /* Interface.storyboard in Resources */,
+				960F0C301B4C39E900E88947 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960F0BEE1B4C39DD00E88947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960F0BFA1B4C39DD00E88947 /* ViewController.swift in Sources */,
+				960F0BF81B4C39DD00E88947 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960F0C031B4C39DD00E88947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960F0C0E1B4C39DD00E88947 /* WatchScreenSizesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960F0C171B4C39E900E88947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960F0C201B4C39E900E88947 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960F0C091B4C39DD00E88947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960F0BF11B4C39DD00E88947 /* WatchScreenSizes */;
+			targetProxy = 960F0C081B4C39DD00E88947 /* PBXContainerItemProxy */;
+		};
+		960F0C281B4C39E900E88947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960F0C241B4C39E900E88947 /* WatchScreenSizes WatchKit App */;
+			targetProxy = 960F0C271B4C39E900E88947 /* PBXContainerItemProxy */;
+		};
+		960F0C321B4C39E900E88947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960F0C1A1B4C39E900E88947 /* WatchScreenSizes WatchKit Extension */;
+			targetProxy = 960F0C311B4C39E900E88947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960F0BFB1B4C39DD00E88947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960F0BFC1B4C39DD00E88947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960F0C001B4C39DD00E88947 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960F0C011B4C39DD00E88947 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		960F0C2C1B4C39E900E88947 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960F0C2D1B4C39E900E88947 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960F0C0F1B4C39DD00E88947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		960F0C101B4C39DD00E88947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960F0C121B4C39DD00E88947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchScreenSizes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		960F0C131B4C39DD00E88947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchScreenSizes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		960F0C151B4C39DD00E88947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchScreenSizesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchScreenSizes.app/WatchScreenSizes";
+			};
+			name = Debug;
+		};
+		960F0C161B4C39DD00E88947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchScreenSizesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchScreenSizes.app/WatchScreenSizes";
+			};
+			name = Release;
+		};
+		960F0C351B4C39E900E88947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchScreenSizes_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchScreenSizes WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		960F0C361B4C39E900E88947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchScreenSizes_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchScreenSizes WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		960F0C381B4C39E900E88947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchScreenSizes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		960F0C391B4C39E900E88947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchScreenSizes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960F0BED1B4C39DD00E88947 /* Build configuration list for PBXProject "WatchScreenSizes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960F0C0F1B4C39DD00E88947 /* Debug */,
+				960F0C101B4C39DD00E88947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960F0C111B4C39DD00E88947 /* Build configuration list for PBXNativeTarget "WatchScreenSizes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960F0C121B4C39DD00E88947 /* Debug */,
+				960F0C131B4C39DD00E88947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960F0C141B4C39DD00E88947 /* Build configuration list for PBXNativeTarget "WatchScreenSizesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960F0C151B4C39DD00E88947 /* Debug */,
+				960F0C161B4C39DD00E88947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960F0C341B4C39E900E88947 /* Build configuration list for PBXNativeTarget "WatchScreenSizes WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960F0C351B4C39E900E88947 /* Debug */,
+				960F0C361B4C39E900E88947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960F0C371B4C39E900E88947 /* Build configuration list for PBXNativeTarget "WatchScreenSizes WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960F0C381B4C39E900E88947 /* Debug */,
+				960F0C391B4C39E900E88947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960F0BEA1B4C39DD00E88947 /* Project object */;
+}

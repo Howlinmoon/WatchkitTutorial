@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchScreenSizes_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Here's a heading" id="hQU-8b-j5g"/>
+                        <label alignment="left" text="And caption text Here" id="Ym8-gs-vSD">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                            <variation key="device=watch38mm">
+                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                            </variation>
+                        </label>
+                        <button width="1" alignment="left" title="First" id="97S-KT-dTP"/>
+                        <group width="1" alignment="left" layout="vertical" id="TnH-Dj-LTA">
+                            <items>
+                                <button width="1" alignment="left" title="Second" id="olj-1l-xqj">
+                                    <variation key="device=watch38mm" width="0.5"/>
+                                </button>
+                                <button width="1" alignment="left" title="Third" id="3Qq-eZ-gab">
+                                    <variation key="device=watch38mm" width="0.5"/>
+                                </button>
+                            </items>
+                            <variation key="device=watch38mm" layout="horizontal"/>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
