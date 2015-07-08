@@ -1,4 +1,4 @@
-# WatchkitTutorial
+# WatchkitTutorial compilation
 
 Continue here:
 
