@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FirstDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Button" id="Vzv-1m-LlF">
+                            <connections>
+                                <action selector="buttonAction" destination="AgC-eL-Hgc" id="7V3-gB-S4c"/>
+                            </connections>
+                        </button>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="YxR-1e-a5E">
+                            <connections>
+                                <action selector="switchAction:" destination="AgC-eL-Hgc" id="AE3-GP-Utz"/>
+                            </connections>
+                        </switch>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="hY6-9y-KN2">
+                            <connections>
+                                <action selector="sliderAction:" destination="AgC-eL-Hgc" id="rSH-PV-QP5"/>
+                            </connections>
+                        </slider>
+                    </items>
+                </controller>
             </objects>
         </scene>
     </scenes>

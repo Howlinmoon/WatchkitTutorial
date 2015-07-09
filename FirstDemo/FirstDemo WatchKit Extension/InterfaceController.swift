@@ -12,6 +12,26 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBAction func buttonAction() {
+        println("You tapped the button")
+    }
+    
+    
+    @IBAction func switchAction(value: Bool) {
+        
+        if (value) {
+            println("The switch is ON")
+        } else {
+            println("The switch is OFF")
+        }
+    }
+    
+    
+    @IBAction func sliderAction(value: Float) {
+        
+        println("The slider value is now: \(value)")
+    }
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
