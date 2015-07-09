@@ -1,6 +1,6 @@
 # WatchkitTutorial compilation
 
-Continue here:
+Continue here next time:
 
-http://www.lynda.com/WatchKit-tutorials/Creating-context-menus/382584/409589-4.html
+http://www.lynda.com/WatchKit-tutorials/Building-hierarchical-navigation-stack/382584/409595-4.html
 
