@@ -19,6 +19,8 @@
 		96561C751B4EDB9900A8B60F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96561C731B4EDB9900A8B60F /* Interface.storyboard */; };
 		96561C771B4EDB9900A8B60F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96561C761B4EDB9900A8B60F /* Images.xcassets */; };
 		96561C7A1B4EDB9900A8B60F /* PageNavDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 96561C621B4EDB9900A8B60F /* PageNavDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		96561C831B4EDCCC00A8B60F /* SecondInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96561C821B4EDCCC00A8B60F /* SecondInterfaceController.swift */; };
+		96561C851B4EDD1900A8B60F /* ThirdInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96561C841B4EDD1900A8B60F /* ThirdInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		96561C721B4EDB9900A8B60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96561C741B4EDB9900A8B60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		96561C761B4EDB9900A8B60F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96561C821B4EDCCC00A8B60F /* SecondInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondInterfaceController.swift; sourceTree = "<group>"; };
+		96561C841B4EDD1900A8B60F /* ThirdInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				96561C661B4EDB9900A8B60F /* InterfaceController.swift */,
+				96561C821B4EDCCC00A8B60F /* SecondInterfaceController.swift */,
+				96561C841B4EDD1900A8B60F /* ThirdInterfaceController.swift */,
 				96561C681B4EDB9900A8B60F /* Images.xcassets */,
 				96561C641B4EDB9900A8B60F /* Supporting Files */,
 			);
@@ -380,6 +386,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				96561C671B4EDB9900A8B60F /* InterfaceController.swift in Sources */,
+				96561C851B4EDD1900A8B60F /* ThirdInterfaceController.swift in Sources */,
+				96561C831B4EDCCC00A8B60F /* SecondInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

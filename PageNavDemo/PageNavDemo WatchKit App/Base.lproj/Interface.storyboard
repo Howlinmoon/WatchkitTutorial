@@ -1,15 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PageNavDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="First" id="Ab0-m0-L8C"/>
+                    </items>
+                    <connections>
+                        <segue destination="MTM-0G-bXx" kind="relationship" relationship="nextPage" id="AqU-tW-Zwi"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="225" y="343"/>
+        </scene>
+        <!--Second Interface Controller-->
+        <scene sceneID="ilN-FP-hcg">
+            <objects>
+                <controller id="MTM-0G-bXx" customClass="SecondInterfaceController" customModule="PageNavDemo_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Second" id="nXL-0F-Ad4"/>
+                    </items>
+                    <connections>
+                        <segue destination="BaF-x4-c0a" kind="relationship" relationship="nextPage" id="kVx-9W-xoK"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="466" y="339"/>
+        </scene>
+        <!--Third Interface Controller-->
+        <scene sceneID="6ak-dV-23M">
+            <objects>
+                <controller id="BaF-x4-c0a" customClass="ThirdInterfaceController" customModule="PageNavDemo_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Third" id="AzJ-jc-ImC"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="708" y="339"/>
         </scene>
     </scenes>
 </document>
