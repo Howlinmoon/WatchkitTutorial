@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0D26CC04-C206-4573-B490-DD220A183D0B</string>
+	<string>E22B8F51-1DA3-45E1-B77E-A1C3980AD7F9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ControlDemo</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5AACA4D0A7A65974A6E865BA4974CEB0F54056C9</key>
 		<string>https://github.com/Howlinmoon/WatchkitTutorial.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ControlDemo/ControlDemo.xcodeproj</string>
+	<string>MenuDemo/MenuDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5AACA4D0A7A65974A6E865BA4974CEB0F54056C9</key>
