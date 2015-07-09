@@ -1,6 +1,6 @@
 //
 //  InterfaceController.swift
-//  MenuDemo WatchKit Extension
+//  FirstDemo WatchKit Extension
 //
 //  Created by jim Veneskey on 7/9/15.
 //  Copyright (c) 2015 Jim Veneskey. All rights reserved.
@@ -12,20 +12,6 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
-    @IBAction func addAction() {
-        println("You tapped the Add option")
-    }
-    
-    
-    @IBAction func shareAction() {
-        println("You tapped the Share option")
-    }
-    
-    
-    @IBAction func trashAction() {
-        println("You tapped the Trash option")
-    }
-    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         

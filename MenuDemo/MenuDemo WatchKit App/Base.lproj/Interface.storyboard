@@ -14,9 +14,21 @@
                     </items>
                     <menu key="menu" id="Evw-oC-Mzb">
                         <items>
-                            <menuItem title="Add New" icon="add" id="SBI-Gh-5Hh"/>
-                            <menuItem title="Share" icon="share" id="gtZ-Ns-X9z"/>
-                            <menuItem title="Menu Item" icon="trash" id="uVb-rm-hZ0"/>
+                            <menuItem title="Add New" icon="add" id="SBI-Gh-5Hh">
+                                <connections>
+                                    <action selector="addAction" destination="AgC-eL-Hgc" id="OXx-jt-uog"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Share" icon="share" id="gtZ-Ns-X9z">
+                                <connections>
+                                    <action selector="shareAction" destination="AgC-eL-Hgc" id="6Tb-P8-HOO"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Trash" icon="trash" id="uVb-rm-hZ0">
+                                <connections>
+                                    <action selector="trashAction" destination="AgC-eL-Hgc" id="TMG-qy-AgA"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                 </controller>
