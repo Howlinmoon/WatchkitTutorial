@@ -1,4 +1,4 @@
-# WatchkitTutorial compilation
+# Lynda.com WatchkitTutorial compilation
 
 Continue here next time:
 
