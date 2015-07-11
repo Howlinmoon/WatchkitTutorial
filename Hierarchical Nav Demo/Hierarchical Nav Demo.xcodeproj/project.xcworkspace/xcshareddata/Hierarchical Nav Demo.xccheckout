@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E7EA4E49-A174-4985-AC8F-4B4BD115E461</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Hierarchical Nav Demo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5AACA4D0A7A65974A6E865BA4974CEB0F54056C9</key>
 		<string>https://github.com/Howlinmoon/WatchkitTutorial.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Hierarchical Nav Demo/Hierarchical Nav Demo.xcodeproj/project.xcworkspace</string>
+	<string>Hierarchical Nav Demo/Hierarchical Nav Demo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5AACA4D0A7A65974A6E865BA4974CEB0F54056C9</key>

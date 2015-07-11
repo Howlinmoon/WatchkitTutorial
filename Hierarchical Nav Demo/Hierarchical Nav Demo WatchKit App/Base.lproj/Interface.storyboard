@@ -5,34 +5,59 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--First-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Hierarchical_Nav_Demo_WatchKit_App" customModuleProvider="target">
+                <controller title="First" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Hierarchical_Nav_Demo_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Next" id="adV-lt-CKj"/>
+                        <button width="1" alignment="left" title="Albums" id="adV-lt-CKj">
+                            <connections>
+                                <segue destination="vvd-gN-Ytq" kind="push" identifier="albums" id="u97-RY-j9u"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Artists" id="rVY-SB-Cbp">
+                            <connections>
+                                <segue destination="vvd-gN-Ytq" kind="push" identifier="artists" id="LDk-LO-ASh"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Songs" id="Hqg-5d-Ad0">
+                            <connections>
+                                <segue destination="vvd-gN-Ytq" kind="push" identifier="songs" id="erB-XG-3Yg"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="215" y="413"/>
         </scene>
-        <!--Second Interface Controller-->
+        <!--Second-->
         <scene sceneID="Y44-QS-4J0">
             <objects>
-                <controller id="vvd-gN-Ytq" customClass="SecondInterfaceController" customModule="Hierarchical_Nav_Demo_WatchKit_Extension">
+                <controller title="Second" id="vvd-gN-Ytq" customClass="SecondInterfaceController" customModule="Hierarchical_Nav_Demo_WatchKit_Extension">
                     <items>
-                        <button width="1" alignment="left" title="Next" id="Qnc-ZX-5aE"/>
+                        <label alignment="left" text="Label" numberOfLines="2" id="zQo-BL-wTX"/>
+                        <button width="1" alignment="left" title="Next" id="Qnc-ZX-5aE">
+                            <connections>
+                                <segue destination="O6D-nD-xHr" kind="push" id="FTA-Wq-T2E"/>
+                            </connections>
+                        </button>
                     </items>
+                    <connections>
+                        <outlet property="message" destination="zQo-BL-wTX" id="D3o-O8-8GT"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="434" y="414"/>
         </scene>
-        <!--Third Interface Controller-->
+        <!--Third-->
         <scene sceneID="h5p-Ce-L1I">
             <objects>
-                <controller id="O6D-nD-xHr" customClass="ThirdInterfaceController" customModule="Hierarchical_Nav_Demo_WatchKit_Extension"/>
+                <controller title="Third" id="O6D-nD-xHr" customClass="ThirdInterfaceController" customModule="Hierarchical_Nav_Demo_WatchKit_Extension"/>
             </objects>
             <point key="canvasLocation" x="648" y="411"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="erB-XG-3Yg"/>
+    </inferredMetricsTieBreakers>
 </document>
