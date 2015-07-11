@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0640"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96EFAA131B50A87700BC12D4"
+               BuildableName = "Hierarchical Nav Demo WatchKit App.app"
+               BlueprintName = "Hierarchical Nav Demo WatchKit App"
+               ReferencedContainer = "container:Hierarchical Nav Demo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96EFAA091B50A87700BC12D4"
+               BuildableName = "Hierarchical Nav Demo WatchKit Extension.appex"
+               BlueprintName = "Hierarchical Nav Demo WatchKit Extension"
+               ReferencedContainer = "container:Hierarchical Nav Demo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96EFA9E01B50A86C00BC12D4"
+               BuildableName = "Hierarchical Nav Demo.app"
+               BlueprintName = "Hierarchical Nav Demo"
+               ReferencedContainer = "container:Hierarchical Nav Demo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96EFAA131B50A87700BC12D4"
+            BuildableName = "Hierarchical Nav Demo WatchKit App.app"
+            BlueprintName = "Hierarchical Nav Demo WatchKit App"
+            ReferencedContainer = "container:Hierarchical Nav Demo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Hierarchical Nav Demo">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96EFAA131B50A87700BC12D4"
+            BuildableName = "Hierarchical Nav Demo WatchKit App.app"
+            BlueprintName = "Hierarchical Nav Demo WatchKit App"
+            ReferencedContainer = "container:Hierarchical Nav Demo.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96EFAA131B50A87700BC12D4"
+            BuildableName = "Hierarchical Nav Demo WatchKit App.app"
+            BlueprintName = "Hierarchical Nav Demo WatchKit App"
+            ReferencedContainer = "container:Hierarchical Nav Demo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Hierarchical Nav Demo">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96EFAA131B50A87700BC12D4"
+            BuildableName = "Hierarchical Nav Demo WatchKit App.app"
+            BlueprintName = "Hierarchical Nav Demo WatchKit App"
+            ReferencedContainer = "container:Hierarchical Nav Demo.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96EFAA131B50A87700BC12D4"
+            BuildableName = "Hierarchical Nav Demo WatchKit App.app"
+            BlueprintName = "Hierarchical Nav Demo WatchKit App"
+            ReferencedContainer = "container:Hierarchical Nav Demo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
