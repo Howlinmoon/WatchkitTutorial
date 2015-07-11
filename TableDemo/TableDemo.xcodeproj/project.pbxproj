@@ -19,6 +19,7 @@
 		968082971B50BD1F006B546A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968082951B50BD1F006B546A /* Interface.storyboard */; };
 		968082991B50BD1F006B546A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968082981B50BD1F006B546A /* Images.xcassets */; };
 		9680829C1B50BD1F006B546A /* TableDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 968082841B50BD1F006B546A /* TableDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		968082A51B514403006B546A /* MovieRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968082A41B514403006B546A /* MovieRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		968082941B50BD1F006B546A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968082961B50BD1F006B546A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		968082981B50BD1F006B546A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		968082A41B514403006B546A /* MovieRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				968082881B50BD1F006B546A /* InterfaceController.swift */,
 				9680828A1B50BD1F006B546A /* Images.xcassets */,
 				968082861B50BD1F006B546A /* Supporting Files */,
+				968082A41B514403006B546A /* MovieRowController.swift */,
 			);
 			path = "TableDemo WatchKit Extension";
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				968082891B50BD1F006B546A /* InterfaceController.swift in Sources */,
+				968082A51B514403006B546A /* MovieRowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

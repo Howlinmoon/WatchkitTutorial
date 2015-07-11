@@ -12,8 +12,20 @@
                     <items>
                         <table alignment="left" id="09n-Y9-Q2g">
                             <items>
-                                <tableRow id="evD-i7-6pt">
-                                    <group key="rootItem" width="1" alignment="left" id="lCc-M3-o96"/>
+                                <tableRow identifier="movieRow" id="evD-i7-6pt" customClass="MovieRowController" customModule="TableDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" spacing="0.0" id="lCc-M3-o96">
+                                        <items>
+                                            <label alignment="left" text="Label" id="DfK-Om-GA6"/>
+                                            <label height="28" alignment="left" text="Label" id="3lC-GU-DrD">
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="movieTitle" destination="DfK-Om-GA6" id="KsD-hS-yhS"/>
+                                        <outlet property="subtitle" destination="3lC-GU-DrD" id="rTu-kl-DeO"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
