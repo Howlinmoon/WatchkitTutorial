@@ -16,7 +16,7 @@
                                     <group key="rootItem" width="1" alignment="left" layout="vertical" spacing="0.0" id="lCc-M3-o96">
                                         <items>
                                             <label alignment="left" text="Label" id="DfK-Om-GA6"/>
-                                            <label height="28" alignment="left" text="Label" id="3lC-GU-DrD">
+                                            <label height="28" alignment="left" text="Label" minimumScaleFactor="0.59999999999999998" id="3lC-GU-DrD">
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                             </label>
@@ -30,6 +30,9 @@
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="movieTable" destination="09n-Y9-Q2g" id="dDs-ZQ-Le5"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>
