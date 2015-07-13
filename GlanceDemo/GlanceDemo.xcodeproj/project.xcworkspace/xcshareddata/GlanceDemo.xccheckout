@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F9952202-B1E7-42CC-9664-6E2C9D19305C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>GlanceDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5AACA4D0A7A65974A6E865BA4974CEB0F54056C9</key>
 		<string>https://github.com/Howlinmoon/WatchkitTutorial.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>GlanceDemo/GlanceDemo.xcodeproj/project.xcworkspace</string>
+	<string>GlanceDemo/GlanceDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5AACA4D0A7A65974A6E865BA4974CEB0F54056C9</key>
